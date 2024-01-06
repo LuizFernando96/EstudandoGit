@@ -11,7 +11,7 @@ function exibirTextoNaTela(tag, texto) {
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate : 1.4});
 }
 
-exibirTextoNaTela('h1', 'Jogo do número secreto');
+exibirTextoNaTela('h1', 'JNS');
 exibirTextoNaTela('p', `Escolha um número entre ${minimo} e ${maximo}`);
 
 function verificarChute() {

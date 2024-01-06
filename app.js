@@ -1,4 +1,3 @@
-
 let listaDeNumerosSorteados = [];
 let maximo = 30;
 let minimo = 1;
@@ -11,7 +10,7 @@ function exibirTextoNaTela(tag, texto) {
     responsiveVoice.speak(texto, 'Brazilian Portuguese Female', {rate : 1.4});
 }
 
-exibirTextoNaTela('h1', 'JNS');
+exibirTextoNaTela('h1', 'Secret Number Game');
 exibirTextoNaTela('p', `Escolha um número entre ${minimo} e ${maximo}`);
 
 function verificarChute() {
